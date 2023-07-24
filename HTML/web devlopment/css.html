@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>INTRODUCTION TO CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="">
+    <h1>Payment Form</h1>
+    <p>Contact Information</p>
+    <p>Name : <input type="text" name="name" required</p>
+
+    <fieldset>
+        <legend>Gender</legend>
+        <p>
+            Male <input type="radio" name="Gender" id="male" required>
+            Female <input type="radio" name="Gender" id="female" required>
+        </p>
+    </fieldset>
+    <p>
+        Address: <textarea name="address" id="address" cols="100" rows="10"></textarea>
+    </p>
+    <p>
+        Email: <input type="email" name="email" id="email" required>
+    </p>
+    <p>
+        Pincode <input type="number" required>
+    </p>
+    <h2>Payment information</h2>
+    <p>Card type:
+        <select name="card_type" id="card_type">
+            <option value="">--select the card--</option>
+            <option value="VISA">visa</option>
+            <option value=Mastercard">mastercard</option>
+            <option value="Rupay">rupay</option>
+        </select>
+        </p>
+        <p>
+            Card No.: <input type="number" name="card_no." id="card_no.">
+        </p>
+        <p>
+            Expiry Date: <input type="date" name="exp_date" id="exp_date">
+        </p>
+        <input type="submit" value = "PAY NOW" >
+</form>
+</body>
+</html>
